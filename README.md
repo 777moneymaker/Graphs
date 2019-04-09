@@ -2,9 +2,9 @@
 A toy implementation of Graphs. 
 Written for Algorithms laboratories.
 
-Visualization
+Output Example
 -----
-<img width=400px src="https://raw.githubusercontent.com/777moneymaker/Graphs/master/img/img.png" />
+<img width=500px src="https://raw.githubusercontent.com/777moneymaker/Graphs/master/img/output.png" />
 
 Usage
 -----
