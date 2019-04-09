@@ -61,35 +61,3 @@ class Graph:
         for adj in listofadj:
             print(count, adj)
             count += 1
-
-# ================== Test Code ==========================
-# from Graph import Graph
-#
-# g = Graph(6)
-# g.generateMatrix()
-# g.printMatrix()
-# g.generateListOfEdges()
-# g.printListOfEdges()
-# g.generateListOfAdj()
-# g.printListOfAdj()
-
-# ================= Output Example ===============================
-# Matrix:
-# [0, 1, 1, 0, 1, 0]
-# [0, 0, 1, 0, 0, 1]
-# [0, 1, 0, 0, 0, 1]
-# [0, 0, 0, 0, 0, 0]
-# [1, 0, 0, 0, 0, 1]
-# [1, 1, 1, 0, 1, 0]
-
-# List of edges:
-# (0, 1) (0, 2) (0, 4) (1, 2) (1, 5) (2, 1) (2, 5)
-# (4, 0) (4, 5) (5, 0) (5, 1) (5, 2) (5, 4)
-
-# List of Adj:
-# 0 [1, 2, 4]
-# 1 [2, 5]
-# 2 [1, 5]
-# 3 []
-# 4 [0, 5]
-# 5 [0, 1, 2, 4]
