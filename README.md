@@ -9,11 +9,11 @@ Output Example
 Usage
 -----
 ```
-python3 State.py 
+python3 play.py 
 # or 	
-sudo chmod +x State.py  
+sudo chmod +x play.py  
 # then
-./State.py  
+./play.py  
 ```
 
 Authors
